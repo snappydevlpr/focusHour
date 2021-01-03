@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "focusHour"
+    }
+  },
+  "defaultProject": "focusHour",
+  "cli": {
+    "analytics": "3b7d7fbe-12de-4c62-b845-3f02b6be3a9a"
+  }
 }
