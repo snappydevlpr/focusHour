@@ -7,6 +7,7 @@ import { LoginPageComponent } from './login-page/login-page.component';
 import { TimerformComponent } from './timerform/timerform.component';
 
 import {MatCardModule} from '@angular/material/card';
+import {MatInputModule} from '@angular/material/input';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import {MatCardModule} from '@angular/material/card';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatCardModule
+    MatCardModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
