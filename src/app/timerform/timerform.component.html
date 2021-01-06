@@ -1,7 +1,30 @@
 <div class="page">
-
     <mat-card class="card">
         <p>Timer</p>
+        <div >
+            <form class="time-entry">
+                <mat-form-field class="digit">
+                    <input matInput [formControl]="mm"  placeholder="m"> 
+                </mat-form-field>
+                <mat-form-field class="digit">
+                    <input matInput placeholder="m"> 
+                </mat-form-field>
+                <div>:</div>
+                <mat-form-field class="digit">
+                    <input matInput placeholder="s"> 
+                </mat-form-field>
+                <mat-form-field class="digit">
+                    <input matInput placeholder="s"> 
+                </mat-form-field>    
+            </form>
+            <p>{{this.timeForm}}</p>
+        </div>
+        <mat-form-field>
+            <input matInput placeholder="Play Guitar"> 
+        </mat-form-field>
+
+
     </mat-card>
       
+
 </div>
